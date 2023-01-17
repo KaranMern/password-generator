@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    width: 210vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+}
+h2{
+    font-weight: 700%;
+    color: rebeccapurple;
+
+}
+.container{
+    width: 600px;
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.form-group{
+    width: 600px;
+    display:flex;
+    margin: 20px 5px;
+    gap: 10px;
+}
+
